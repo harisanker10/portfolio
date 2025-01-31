@@ -1,7 +1,7 @@
 import { ProjectCard, Section, Tags } from "../components";
 
 const ProjectList = () => (
-  <Section className="mt-10">
+  <Section className="mt-10 mx-0 container">
     <h2 className="text-2xl font-bold text-primary my-5">Projects</h2>
     <div className="flex flex-col gap-6">
       <ProjectCard

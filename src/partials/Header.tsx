@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <header className="w-full py-6 bg-background">
+    <header className="w-full py-6 bg-background px-6">
       <div className="max-w-[66rem] mx-auto flex flex-col md:flex-row justify-between items-center flex-wrap">
         <a href="/">
           <h1 className="text-4xl font-bold text-primary">Harisanker</h1>

@@ -8,7 +8,7 @@ export function Section({
 }) {
   return (
     <section
-      className={`text-[15px] md:text-[15px] mx-6 text-foreground max-w-[66rem] md:mx-auto my-6 ${className}`}
+      className={`text-[15px] md:text-[15px] w-full text-foreground max-w-[66rem] md:mx-auto my-6 px-6 ${className}`}
     >
       {children}
     </section>
