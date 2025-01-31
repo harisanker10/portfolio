@@ -1,0 +1,17 @@
+---
+import {Header} from "../partials/Header.tsx"
+import "../styles/global.css"
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro Basics</title>
+	</head>
+	<body class="bg-background m-0 p-0 w-[100vw] min-h-screen">
+		<slot />
+	</body>
+</html>
