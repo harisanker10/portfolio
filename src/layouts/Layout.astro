@@ -6,10 +6,43 @@ import "../styles/global.css"
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+
+		   <!-- Basic Meta Tags -->
+    <title>Harisanker - Portfolio</title>
+    <meta name="description" content="Hi, I'm Harisanker. I'm a web developer with good amount of knowledge in JavaScript and its ecosystems. Check out my work and get in touch!">
+    <meta name="author" content="Harisanker">
+	<meta name="keywords" content="portfolio, web development, design, nodejs, nextjs, javascript,typescript, react, backend development, nestjs, docker, kubernetes, kafka">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hsanker.in">
+    <meta property="og:title" content="Harisanker - Portfolio">
+    <meta property="og:description" content="Hi, I'm Harisanker. I'm a web developer. Check out my work and get in touch!">
+    <!-- <meta property="og:image" content="https://hsanker.in/images/og-image.jpg"> -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hsanker.in">
+    <meta property="twitter:title" content="Harisanker - Portfolio">
+    <meta property="twitter:description" content="Hi, I'm Harisanker. I'm a web developer with good amount of knowledge in JavaScript and its ecosystems. Check out my work and get in touch!">
+    <!-- <meta property="twitter:image" content="https://hsanker.in/images/og-image.jpg"> -->
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#030712">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/favicon.ico">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://hsanker.in">
+
+
 	</head>
 	<body class="bg-background m-0 p-0 w-[100vw] min-h-screen flex flex-col items-center">
 		<slot />

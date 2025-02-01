@@ -3,5 +3,5 @@
 @theme {
   --color-background: var(--color-gray-950);
   --color-foreground: var(--color-gray-50);
-  --color-primary: var(--color-blue-400);
+  --color-primary: var(--color-cyan-400);
 }

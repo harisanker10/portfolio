@@ -6,17 +6,17 @@ export function Header() {
           <h1 className="text-4xl font-bold text-primary">Harisanker</h1>
         </a>
 
-        <nav className="flex gap-6 text-sm md:text-[16px] md:font-semibold text-gray-200 [&>*:hover]:text-gray-400 [&>*]:transition-colors flex-wrap justify-center md:justify-end w-full md:w-auto mt-2 md:mt-0">
+        <section className="flex gap-6 text-sm md:text-[16px] md:font-semibold text-gray-200 [&>*:hover]:text-gray-400 [&>*]:transition-colors flex-wrap justify-center md:justify-end w-full md:w-auto mt-2 md:mt-0">
           {
             // <a href="/posts/">Blogs</a>
           }
-          <a href="https://github.com/harisanker10" target="_blank">
+          <a href="https://github.com/harisanker10" target="_blank" aria-label="View Github account">
             GitHub
           </a>
-          <a href="https://www.linkedin.com/in/harisankerkm/" target="_blank">
+          <a href="https://www.linkedin.com/in/harisankerkm/" target="_blank" aria-label="View LinkedIn account">
             LinkedIn
           </a>
-        </nav>
+        </section>
       </div>
     </header>
   );

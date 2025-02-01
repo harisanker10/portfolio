@@ -16,7 +16,7 @@ const Hero = () => (
       <br />
       Currently I'm building{" "}
       <a
-        className="text-cyan-400 hover:underline"
+        className="text-blue-500 font-semibold hover:underline"
         href="https://github.com/harisanker10/servel"
         target="_blank"
       >

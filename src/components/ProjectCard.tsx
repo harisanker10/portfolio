@@ -51,7 +51,7 @@ export function ProjectCard(props: IProjectProps) {
 
       <div>
         <div className="flex flex-col items-center md:items-center gap-y-2 md:flex-row">
-          <a className="hover:text-cyan-400" href={props.link} target="_blank">
+          <a className="hover:text-cyan-400" href={props.link} target="_blank" aria-label="Link to the project details.">
             <div className="text-xl font-semibold">{props.name}</div>
           </a>
 
@@ -68,6 +68,7 @@ export function ProjectCard(props: IProjectProps) {
                 href={props.githubUrl}
                 target="_blank"
                 className="flex gap-1 items-center justify-center"
+                aria-label="View source code on GitHub"
               >
                 <GithubIcon className="w-5 h-5 md:w-6 md:h-6 fill-white" />
               </a>
@@ -77,6 +78,7 @@ export function ProjectCard(props: IProjectProps) {
                 href={props.liveUrl}
                 target="_blank"
                 className="flex gap-1 items-center justify-center"
+                aria-label="View live project"
               >
                 <LiveLinkIcon className="w-5 h-5 md:w-6 md:h-6 fill-white" />
               </a>
